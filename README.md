@@ -1,6 +1,6 @@
 # Conditioner Dynamic Imports Boilerplate
 
-A dynamic imports boilerplate for [Conditioner](https://pqina.nl/conditioner).
+A dynamic imports boilerplate for [Conditioner](https://github.com/rikschennink/conditioner).
 
 Install dependencies from npm.
 
