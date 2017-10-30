@@ -1,7 +1,7 @@
 (async () => {
 
     // import the conditioner lib
-    const { default: conditioner } = await import('./node_modules/conditioner-core/dist/conditioner-core.js');
+    const conditioner = await import('./node_modules/conditioner-core/dist/conditioner-core-es6.js');
 
     // correct module name location
     conditioner.addPlugin({

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "conditioner-core": "^2.0.0"
+    "conditioner-core": "^2.0.1"
   },
   "devDependencies": {
     "http-server": "^0.10.0"
