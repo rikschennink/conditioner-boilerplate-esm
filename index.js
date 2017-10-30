@@ -1,7 +1,5 @@
-(async () => {
-
-    // import the conditioner lib
-    const conditioner = await import('./node_modules/conditioner-core/dist/conditioner-core-es6.js');
+// import the conditioner lib
+import('./node_modules/conditioner-core/dist/conditioner-core-es6.js').then(conditioner => {
 
     // correct module name location
     conditioner.addPlugin({
@@ -13,5 +11,5 @@
 
     // lets go!
     conditioner.hydrate( document.documentElement );
-
-})();
+    
+});
