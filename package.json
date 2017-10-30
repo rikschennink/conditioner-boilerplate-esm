@@ -1,0 +1,17 @@
+{
+  "name": "conditioner-boilerplate-dynamic-imports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "conditioner-core": "^2.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "scripts": {
+    "start": "node_modules/http-server/bin/http-server ./"
+  },
+  "author": "Rik Schennink <hello@rikschennink.nl> (http://rikschennink.nl/)",
+  "license": "MIT"
+}
