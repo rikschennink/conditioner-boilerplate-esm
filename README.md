@@ -1,6 +1,6 @@
-# Conditioner Dynamic Imports Boilerplate
+# Conditioner ES6 Boilerplate
 
-A dynamic imports boilerplate for [Conditioner](https://github.com/rikschennink/conditioner).
+An ES6 based boilerplate for [Conditioner](https://github.com/rikschennink/conditioner).
 
 Install dependencies from npm.
 

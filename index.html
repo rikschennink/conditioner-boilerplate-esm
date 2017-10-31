@@ -5,14 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>Conditioner Dynamic Imports Boilerplate</title>
+    <title>Conditioner ES6 Boilerplate</title>
 
 </head>
 <body>
 
 <div data-module="component" data-context="@media (min-width:40em)"></div>
 
-<script src="index.js"></script>
+<script>
+import('./node_modules/conditioner-core/index.js').then(conditioner => {
 
+    // correct module name location
+    conditioner.addPlugin({
+    
+        // get the module constructor
+        moduleGetConstructor: (module) => module.default,
+
+        // fetch module with dynamic import
+        moduleImport: (name) => import(name),
+
+        // converts module aliases to paths
+        moduleSetName: (name) => `/ui/${ name }.js`
+        
+    });
+
+    // lets go!
+    conditioner.hydrate( document.documentElement );
+});
+</script>
 </body>
 </html>
