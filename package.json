@@ -1,21 +1,21 @@
 {
-  "name": "conditioner-boilerplate-es6",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rikschennink/conditioner-boilerplate-es6.git"
-  },
-  "dependencies": {
-    "conditioner-core": "^2.1.0"
-  },
-  "devDependencies": {
-    "http-server": "^0.10.0"
-  },
-  "scripts": {
-    "start": "node_modules/http-server/bin/http-server ./"
-  },
-  "author": "Rik Schennink <hello@rikschennink.nl> (http://rikschennink.nl/)",
-  "license": "MIT"
+    "name": "conditioner-boilerplate-es6",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rikschennink/conditioner-boilerplate-es6.git"
+    },
+    "dependencies": {
+        "conditioner-core": "^2.3.0"
+    },
+    "devDependencies": {
+        "http-server": "^0.10.0"
+    },
+    "scripts": {
+        "start": "node_modules/http-server/bin/http-server ./"
+    },
+    "author": "Rik Schennink <hello@rikschennink.nl> (http://rikschennink.nl/)",
+    "license": "MIT"
 }
