@@ -1,6 +1,6 @@
-# Conditioner ES6 Boilerplate
+# Conditioner ES Module Boilerplate
 
-An ES6 based boilerplate for [Conditioner](https://github.com/rikschennink/conditioner).
+An ES Module based boilerplate for [Conditioner](https://github.com/rikschennink/conditioner).
 
 Install dependencies from npm.
 

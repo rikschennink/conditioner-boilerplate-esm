@@ -1,11 +1,11 @@
 {
-    "name": "conditioner-boilerplate-es6",
+    "name": "conditioner-boilerplate-esm",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/rikschennink/conditioner-boilerplate-es6.git"
+        "url": "https://github.com/rikschennink/conditioner-boilerplate-esm.git"
     },
     "dependencies": {
         "conditioner-core": "^2.3.0"
